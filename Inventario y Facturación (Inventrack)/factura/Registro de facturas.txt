@@ -1,0 +1,9 @@
+FAC-0001|24-05-2023|08:38|Anthony Alexander Gago Pérez|Cristian Gago|Impresora HP Multiuso|3|1750|0|5,250.00
+FAC-0002|24-05-2023|19:10|Anthony Alexander Gago Pérez|Cristian Gago|Impresora HP Multiuso|4|1750|0|7,000.00
+FAC-0003|25-05-2023|22:35|Norman Soto|Cristian Gago|Impresora HP Multiuso|12|1750|0|21,000.00
+FAC-0003|25-05-2023|22:35|Norman Soto|Cristian Gago|Telefonos|4|2500|0|10,000.00
+FAC-0003|25-05-2023|22:35|Norman Soto|Cristian Gago|Juego de cacerolas (color gris)|2|559|20|894.40|Efectivo|31,894.40|36,678.56|37000|321.4414
+FAC-0004|25-05-2023|22:37|Alicia Bernabé|Cristian Gago|Telefonos|3|2500|50|3,750.00|Tarjeta|3,750.00|4,312.50|4,312.50|0.00
+FAC-0005|30-05-2023|19:10|Norman Soto|Cristian Gago|Impresora HP Multiuso|3|1750|0|5,250.00|Efectivo|5,250.00|6,037.50|7000|962.5
+FAC-0006|05-06-2023|07:41|Alicia Bernabé|Cristian Gago|Juego de cacerolas (color gris)|26|559|0|14,534.00|Tarjeta|14,534.00|16,714.10|16,714.10|0.00
+FAC-0007|18-08-2023|20:35|Anthony Alexander Gago Pérez|Cristian Gago|Impresora HP Multiuso|1|3000|0|3,000.00|Efectivo|3,000.00|3,450.00|4000|550.00

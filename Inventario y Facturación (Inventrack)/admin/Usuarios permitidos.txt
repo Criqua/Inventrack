@@ -1,0 +1,3 @@
+4747365L|Cristian Gago|Sistemas.|Administrador
+2785461Z|Nilson Saballos|Sistemas1.|Inventario y factura
+9305463H|Emilio Carranza|Sistemas2.|Solo factura

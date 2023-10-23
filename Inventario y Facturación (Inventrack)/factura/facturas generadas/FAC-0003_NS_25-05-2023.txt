@@ -1,0 +1,28 @@
+				========================================
+				Número de factura: FAC-0003
+				Fecha de emisión: 25-05-2023
+				Hora: 22:35
+				========================================
+				Nombre de la empresa
+				Dirección de la empresa
+				Correo de la empresa
+				Teléfono de la empresa
+				========================================
+
+Cliente: Norman Soto
+Le atendió: Cristian Gago
+-------------------------------------------------------------------------------------------------------
+Producto                                          Cantidad       Precio Unit.   Descuento      Total          
+-------------------------------------------------------------------------------------------------------
+Impresora HP Multiuso                             12             1750           0              21,000.00      
+Telefonos                                         4              2500           0              10,000.00      
+Juego de cacerolas (color gris)                   2              559            20             894.40         
+-------------------------------------------------------------------------------------------------------
+Subtotal:                                                                                      31,894.40
+Total (IVA incluido):                                                                          36,678.56
+-------------------------------------------------------------------------------------------------------
+Forma de pago: Efectivo
+Total pagado: 37000
+Monto devuelto: 321.4414
+
+					¡Gracias por elegirnos! :)

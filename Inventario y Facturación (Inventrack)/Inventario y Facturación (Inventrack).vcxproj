@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{4da9bfb6-8a15-4692-8ea8-ae401f9ef38b}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Inventario_y_Facturación__Inventrack_</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Agregar_grupo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Agregar_usuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Alertas.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="archivos_cAcceso.h" />
+    <ClInclude Include="Clientes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="clientes\archivarClientes.h" />
+    <ClInclude Include="Compras.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Configuracion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Configuracion_usuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="config\archivarConfiguracion.h" />
+    <ClInclude Include="Eliminar_usuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Factura.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="factura\archivar_datosFactura.h" />
+    <ClInclude Include="factura\auto_codefact.h" />
+    <ClInclude Include="Frecuencia_clientes.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Generar_factura.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="grupos\agregarGrupo.h" />
+    <ClInclude Include="Historial_compras.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historial_factura.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Modificar_cliente.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Modificar_factura.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Modificar_producto.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Modificar_proveedor.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Modificar_rolUsuario.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Productos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="productos\archivarProductos.h" />
+    <ClInclude Include="productos\auto_code.h" />
+    <ClInclude Include="Productos_vendidos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Proveedores.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="proveedores\archivarProveedores.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Reporte_factura.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Resumen_financiero.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Seleccionar_unidadMedida.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SystemString_toStdString.h" />
+    <ClInclude Include="unidad de medida\uMedidas_archivadas.h" />
+    <ClInclude Include="Validaciones.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Agregar_grupo.cpp" />
+    <ClCompile Include="Agregar_usuario.cpp" />
+    <ClCompile Include="Alertas.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Clientes.cpp" />
+    <ClCompile Include="Compras.cpp" />
+    <ClCompile Include="Configuracion.cpp" />
+    <ClCompile Include="Configuracion_usuario.cpp" />
+    <ClCompile Include="CppCLR_WinFormsProject.cpp" />
+    <ClCompile Include="Eliminar_producto.cpp" />
+    <ClCompile Include="Eliminar_usuario.cpp" />
+    <ClCompile Include="Factura.cpp" />
+    <ClCompile Include="Form1.cpp" />
+    <ClCompile Include="Frecuencia_clientes.cpp" />
+    <ClCompile Include="Generar_factura.cpp" />
+    <ClCompile Include="Historial_compras.cpp" />
+    <ClCompile Include="Historial_factura.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="Modificar_cliente.cpp" />
+    <ClCompile Include="Modificar_factura.cpp" />
+    <ClCompile Include="Modificar_producto.cpp" />
+    <ClCompile Include="Modificar_proveedor.cpp" />
+    <ClCompile Include="Modificar_rolUsuario.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Productos.cpp" />
+    <ClCompile Include="Productos_vendidos.cpp" />
+    <ClCompile Include="Proveedores.cpp" />
+    <ClCompile Include="Reporte_factura.cpp" />
+    <ClCompile Include="Resumen_financiero.cpp" />
+    <ClCompile Include="Seleccionar_unidadMedida.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico" />
+    <Image Include="imagenbuscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Agregar_grupo.resx">
+      <DependentUpon>Agregar_grupo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_usuario.resx">
+      <DependentUpon>Agregar_usuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alertas.resx">
+      <DependentUpon>Alertas.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Compras.resx">
+      <DependentUpon>Compras.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion.resx">
+      <DependentUpon>Configuracion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion_usuario.resx">
+      <DependentUpon>Configuracion_usuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar_usuario.resx">
+      <DependentUpon>Eliminar_usuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factura.resx">
+      <DependentUpon>Factura.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frecuencia_clientes.resx">
+      <DependentUpon>Frecuencia_clientes.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generar_factura.resx">
+      <DependentUpon>Generar_factura.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historial_compras.resx">
+      <DependentUpon>Historial_compras.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historial_factura.resx">
+      <DependentUpon>Historial_factura.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modificar_cliente.resx">
+      <DependentUpon>Modificar_cliente.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modificar_producto.resx">
+      <DependentUpon>Modificar_producto.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modificar_proveedor.resx">
+      <DependentUpon>Modificar_proveedor.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modificar_rolUsuario.resx">
+      <DependentUpon>Modificar_rolUsuario.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos_vendidos.resx">
+      <DependentUpon>Productos_vendidos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores.resx">
+      <DependentUpon>Proveedores.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporte_factura.resx">
+      <DependentUpon>Reporte_factura.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resumen_financiero.resx">
+      <DependentUpon>Resumen_financiero.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Seleccionar_unidadMedida.resx">
+      <DependentUpon>Seleccionar_unidadMedida.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

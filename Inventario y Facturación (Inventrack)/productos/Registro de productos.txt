@@ -1,0 +1,6 @@
+ELE-0001|Electrónica|Impresora HP Multiuso|u|19|4|Pasillo 7|3000|-
+ELE-0002|Electrónica|Telefonos|u|89|35|Pasillo tecnológico|2500|-
+COC-0001|Cocina|Juego de cacerolas (color gris)|u|20|10|Sector hogar|900|-
+CER-0001|Cereales y granos|Arroz|lb|146.5|40|Envase de granos - Pasillo 2|22.000000|07/11/2023
+CER-0002|Cereales y granos|Frijoles|lb|202|50|Envase de granos - Pasillo 2|30.000000|04/10/2023
+ELE(2)-0001|Electrodomésticos|Tostadora|u|27|12|Pasillo 1 - Estante 2|699|-

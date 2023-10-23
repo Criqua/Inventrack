@@ -1,0 +1,27 @@
+				========================================
+				Número de factura: FAC-0001
+				Fecha de emisión: 24-05-2023
+				Hora: 08:38
+				========================================
+				Nombre de la empresa
+				Dirección de la empresa
+				Correo de la empresa
+				Teléfono de la empresa
+				========================================
+
+Cliente: Anthony Alexander Gago Pérez
+Le atendió: Cristian Gago
+-------------------------------------------------------------------------------------------------------
+Producto                                          Cantidad       Precio Unit.   Descuento      Total          
+-------------------------------------------------------------------------------------------------------
+Impresora HP Multiuso                             3              1750           0              5,250.00       
+Telefonos                                         7              2500           5              16,625.00      
+-------------------------------------------------------------------------------------------------------
+Subtotal:                                                                                      21,875.00
+Total (IVA incluido):                                                                          25,156.25
+-------------------------------------------------------------------------------------------------------
+Forma de pago: Tarjeta
+Total pagado: 25,156.25
+Monto devuelto: 0.00
+
+					¡Gracias por elegirnos! :)

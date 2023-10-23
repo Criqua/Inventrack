@@ -1,0 +1,7 @@
+FAC-0001|24-05-2023|Anthony Alexander Gago Pérez|Cristian Gago|Tarjeta|21,875.00|25,156.25|25,156.25|0.00
+FAC-0002|24-05-2023|Anthony Alexander Gago Pérez|Cristian Gago|Efectivo|21,677.00|24,928.55|25000|71.44922
+FAC-0003|25-05-2023|Norman Soto|Cristian Gago|Efectivo|31,894.40|36,678.56|37000|321.4414
+FAC-0004|25-05-2023|Alicia Bernabé|Cristian Gago|Tarjeta|3,750.00|4,312.50|4,312.50|0.00
+FAC-0005|30-05-2023|Norman Soto|Cristian Gago|Efectivo|5,250.00|6,037.50|7000|962.5
+FAC-0006|05-06-2023|Alicia Bernabé|Cristian Gago|Tarjeta|14,534.00|16,714.10|16,714.10|0.00
+FAC-0007|18-08-2023|Anthony Alexander Gago Pérez|Cristian Gago|Efectivo|3,000.00|3,450.00|4000|550.00

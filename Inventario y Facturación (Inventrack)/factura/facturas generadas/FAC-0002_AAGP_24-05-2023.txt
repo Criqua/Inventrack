@@ -1,0 +1,31 @@
+				========================================
+				Número de factura: FAC-0002
+				Fecha de emisión: 24-05-2023
+				Hora: 19:02
+				========================================
+				Nombre de la empresa
+				Dirección de la empresa
+				Correo de la empresa
+				Teléfono de la empresa
+				========================================
+
+Cliente: Anthony Alexander Gago Pérez
+Le atendió: Cristian Gago
+-------------------------------------------------------------------------------------------------------
+Producto                                          Cantidad       Precio Unit.   Descuento      Total          
+-------------------------------------------------------------------------------------------------------
+Impresora HP Multiuso                             4              1750           0              7,000.00       
+Telefonos                                         4              2500           5              9,500.00       
+Impresora HP Multiuso                             2              1750           0              3,500.00       
+Juego de Cacerolas Antiadherente (color gris)     1              522.49         0              522.49         
+Juego de Cacerolas Antiadherente (color gris)     1              522.49         0              522.49         
+Juego de Cacerolas Antiadherente (color gris)     1              522.49         0              522.49         
+-------------------------------------------------------------------------------------------------------
+Subtotal:                                                                                      21,567.47
+Total (IVA incluido):                                                                          24,802.59
+-------------------------------------------------------------------------------------------------------
+Forma de pago: Tarjeta
+Total pagado: 24,802.59
+Monto devuelto: 0.00
+
+					¡Gracias por elegirnos! :)              
